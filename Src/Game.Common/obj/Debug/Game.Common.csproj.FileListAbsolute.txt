@@ -25,3 +25,6 @@
 /Users/jiepengtan/Projects/LPEngine/Lockstep_Demo2D/Src/Game.Common/obj/Debug/Game.Common.AssemblyInfo.cs
 /Users/jiepengtan/Projects/LPEngine/Lockstep_Demo2D/Src/Game.Common/obj/Debug/Lockstep.Game.Common.Tank.dll
 /Users/jiepengtan/Projects/LPEngine/Lockstep_Demo2D/Src/Game.Common/obj/Debug/Lockstep.Game.Common.Tank.pdb
+/Users/jiepengtan/Projects/LPEngine/Lockstep_Demo2D/bin/Lockstep.Game.Common.Tank.deps.json
+/Users/jiepengtan/Projects/LPEngine/Lockstep_Demo2D/bin/Lockstep.Game.Common.Tank.dll
+/Users/jiepengtan/Projects/LPEngine/Lockstep_Demo2D/bin/Lockstep.Game.Common.Tank.pdb

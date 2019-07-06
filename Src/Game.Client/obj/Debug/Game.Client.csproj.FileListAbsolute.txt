@@ -28,3 +28,6 @@
 /Users/jiepengtan/Projects/LPEngine/Lockstep_Demo2D/Src/Game.Client/obj/Debug/Game.Client.csproj.CopyComplete
 /Users/jiepengtan/Projects/LPEngine/Lockstep_Demo2D/Src/Game.Client/obj/Debug/Lockstep.Game.Client.Tank.dll
 /Users/jiepengtan/Projects/LPEngine/Lockstep_Demo2D/Src/Game.Client/obj/Debug/Lockstep.Game.Client.Tank.pdb
+/Users/jiepengtan/Projects/LPEngine/Lockstep_Demo2D/bin/Lockstep.Game.Client.Tank.deps.json
+/Users/jiepengtan/Projects/LPEngine/Lockstep_Demo2D/bin/Lockstep.Game.Client.Tank.dll
+/Users/jiepengtan/Projects/LPEngine/Lockstep_Demo2D/bin/Lockstep.Game.Client.Tank.pdb

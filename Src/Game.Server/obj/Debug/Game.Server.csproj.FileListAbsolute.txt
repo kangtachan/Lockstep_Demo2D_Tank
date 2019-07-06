@@ -25,3 +25,6 @@
 /Users/jiepengtan/Projects/LPEngine/Lockstep_Demo2D/Src/bin/Lockstep.Game.Server.Tank.pdb
 /Users/jiepengtan/Projects/LPEngine/Lockstep_Demo2D/Src/Game.Server/obj/Debug/Lockstep.Game.Server.Tank.dll
 /Users/jiepengtan/Projects/LPEngine/Lockstep_Demo2D/Src/Game.Server/obj/Debug/Lockstep.Game.Server.Tank.pdb
+/Users/jiepengtan/Projects/LPEngine/Lockstep_Demo2D/bin/Lockstep.Game.Server.Tank.deps.json
+/Users/jiepengtan/Projects/LPEngine/Lockstep_Demo2D/bin/Lockstep.Game.Server.Tank.dll
+/Users/jiepengtan/Projects/LPEngine/Lockstep_Demo2D/bin/Lockstep.Game.Server.Tank.pdb
