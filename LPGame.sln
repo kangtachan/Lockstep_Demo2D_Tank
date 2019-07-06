@@ -8,7 +8,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Common", "Src\Game.Com
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Server", "Src\Game.Server\Game.Server.csproj", "{1DCEB5B2-9BFF-4029-8746-88EB2A2CD3F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Editor", "Src\Game.Editor\Game.Editor.csproj", "{C98753CF-F2B3-4537-A2D0-8E90413C21D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Editor", "Src\Game.Editor\Game.Editor.csproj", "{C98753CF-F2B3-4537-A2D0-8E90413C21D6}" 
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
