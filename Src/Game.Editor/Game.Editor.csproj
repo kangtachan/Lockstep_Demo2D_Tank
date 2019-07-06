@@ -20,25 +20,25 @@
     </PropertyGroup>
     <ItemGroup>
       <Reference Include="Lockstep.Client.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-        <HintPath>..\..\Libs\FMEngine\Lockstep.Client.Common.dll</HintPath>
+        <HintPath>..\..\Libs\LPEngine\Lockstep.Client.Common.dll</HintPath>
       </Reference>
       <Reference Include="Lockstep.ECS.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-        <HintPath>..\..\Libs\FMEngine\Lockstep.ECS.Common.dll</HintPath>
+        <HintPath>..\..\Libs\LPEngine\Lockstep.ECS.Common.dll</HintPath>
       </Reference>
       <Reference Include="Lockstep.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-        <HintPath>..\..\Libs\FMEngine\Lockstep.Logging.dll</HintPath>
+        <HintPath>..\..\Libs\LPEngine\Lockstep.Logging.dll</HintPath>
       </Reference>
       <Reference Include="Lockstep.Math, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-        <HintPath>..\..\Libs\FMEngine\Lockstep.Math.dll</HintPath>
+        <HintPath>..\..\Libs\LPEngine\Lockstep.Math.dll</HintPath>
       </Reference>
       <Reference Include="Lockstep.NetMsg.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-        <HintPath>..\..\Libs\FMEngine\Lockstep.NetMsg.Common.dll</HintPath>
+        <HintPath>..\..\Libs\LPEngine\Lockstep.NetMsg.Common.dll</HintPath>
       </Reference>
       <Reference Include="Lockstep.Serialization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-        <HintPath>..\..\Libs\FMEngine\Lockstep.Serialization.dll</HintPath>
+        <HintPath>..\..\Libs\LPEngine\Lockstep.Serialization.dll</HintPath>
       </Reference>
       <Reference Include="Lockstep.Util, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-        <HintPath>..\..\Libs\FMEngine\Lockstep.Util.dll</HintPath>
+        <HintPath>..\..\Libs\LPEngine\Lockstep.Util.dll</HintPath>
       </Reference>
       <Reference Include="UnityEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
         <HintPath>..\..\Libs\UnityEditor.dll</HintPath>
