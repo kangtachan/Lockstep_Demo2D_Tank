@@ -68,7 +68,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: 8b9e96df7679940e290e162e87258e75, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a19c8c5019a1b4a5d917565f25a039af, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -88,8 +88,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8545725408842799340}
+  - component: {fileID: 8545725408842799343}
   m_Layer: 0
-  m_Name: Bullet0
+  m_Name: Bullet 0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -68,7 +68,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: 6fa7c7df81f0146b8bbb1c4f7c4405e5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3fbddd8f4858d43bb940ba01955a2e88, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -88,6 +88,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8545725408842799340}
+  - component: {fileID: 3234914909494179816}
   m_Layer: 0
   m_Name: ItemBoom
   m_TagString: Untagged
@@ -110,3 +111,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3234914909494179816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8545725408842799341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edebe8d7e8a841fc9a89d516683fb85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camp: 0
+  detailType: 0
+  health: 1
+  moveSpd: 2
+  MaxMoveSpd: 2
+  _dir: 0
+  pos: {x: 0, y: 0}
+  size: {x: 0, y: 0}
+  radius: 0
+  Type: 0
+  lifeTime: 0
+  isEnable: 1
