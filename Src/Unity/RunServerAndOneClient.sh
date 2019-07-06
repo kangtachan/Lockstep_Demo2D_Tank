@@ -6,4 +6,4 @@ ps -ef | grep "Test.Server" | grep -v grep |awk '{print $2}' | xargs kill -9
 ps -ef | grep "LPClient.app" | grep -v grep |awk '{print $2}' | xargs kill -9
 open -n Build/LPClient.app
 open -n Build/LPClient.app
-mono ../../../bin/Test.Server.exe
+mono ../../../LockstepPlatform/Test/bin/Lockstep.Test.Server.dll
