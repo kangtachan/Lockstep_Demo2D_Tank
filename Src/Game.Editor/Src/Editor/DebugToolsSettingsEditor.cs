@@ -1,8 +1,6 @@
 ﻿using UnityEngine;
 using UnityEditor;
-
 using DebugTools;
-
 public class DebugToolsSettingsEditor : EditorWindow {
 
 	DebugSettings settings;

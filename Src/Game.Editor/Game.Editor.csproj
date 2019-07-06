@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <AssemblyName>Lockstep.Game.Editor.Tank</AssemblyName>
+    </PropertyGroup>
+    <ItemDefinitionGroup>
+        <Reference>
+            <Private>False</Private>
+        </Reference>
+    </ItemDefinitionGroup>
+    <PropertyGroup>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <OutputPath>../bin/</OutputPath>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <OutputPath>../bin/</OutputPath>
+    </PropertyGroup>
+    <ItemGroup>
+      <Reference Include="Lockstep.Client.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\Libs\FMEngine\Lockstep.Client.Common.dll</HintPath>
+      </Reference>
+      <Reference Include="Lockstep.ECS.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\Libs\FMEngine\Lockstep.ECS.Common.dll</HintPath>
+      </Reference>
+      <Reference Include="Lockstep.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\Libs\FMEngine\Lockstep.Logging.dll</HintPath>
+      </Reference>
+      <Reference Include="Lockstep.Math, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\Libs\FMEngine\Lockstep.Math.dll</HintPath>
+      </Reference>
+      <Reference Include="Lockstep.NetMsg.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\Libs\FMEngine\Lockstep.NetMsg.Common.dll</HintPath>
+      </Reference>
+      <Reference Include="Lockstep.Serialization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\Libs\FMEngine\Lockstep.Serialization.dll</HintPath>
+      </Reference>
+      <Reference Include="Lockstep.Util, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\Libs\FMEngine\Lockstep.Util.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\Libs\UnityEditor.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\Libs\UnityEngine.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Game.Client\Game.Client.csproj" />
+      <ProjectReference Include="..\Game.Common\Game.Common.csproj" />
+    </ItemGroup>
+</Project>

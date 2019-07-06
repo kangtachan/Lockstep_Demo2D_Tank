@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <AssemblyName>Lockstep.Game.Client.Tank</AssemblyName>
+    </PropertyGroup>
+    <ItemDefinitionGroup>
+        <Reference>
+            <Private>False</Private>
+        </Reference>
+    </ItemDefinitionGroup>
+    <PropertyGroup>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <OutputPath>../bin/</OutputPath>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <OutputPath>../bin/</OutputPath>
+    </PropertyGroup>
+    <ItemGroup>
+      <Reference Include="Lockstep.ECS.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\Libs\FMEngine\Lockstep.ECS.Common.dll</HintPath>
+      </Reference>
+      <Reference Include="Lockstep.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\Libs\FMEngine\Lockstep.Logging.dll</HintPath>
+      </Reference>
+      <Reference Include="Lockstep.Math, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\Libs\FMEngine\Lockstep.Math.dll</HintPath>
+      </Reference>
+      <Reference Include="Lockstep.NetMsg.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\Libs\FMEngine\Lockstep.NetMsg.Common.dll</HintPath>
+      </Reference>
+      <Reference Include="Lockstep.NetMsg.Server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\Libs\FMEngine\Lockstep.NetMsg.Server.dll</HintPath>
+      </Reference>
+      <Reference Include="Lockstep.Networking, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\Libs\FMEngine\Lockstep.Networking.dll</HintPath>
+      </Reference>
+      <Reference Include="Lockstep.Serialization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\Libs\FMEngine\Lockstep.Serialization.dll</HintPath>
+      </Reference>
+      <Reference Include="Lockstep.Server.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\Libs\FMEngine\Lockstep.Server.Common.dll</HintPath>
+      </Reference>
+      <Reference Include="Lockstep.Util, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\Libs\FMEngine\Lockstep.Util.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+</Project>
