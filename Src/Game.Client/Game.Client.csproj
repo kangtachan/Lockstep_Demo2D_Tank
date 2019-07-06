@@ -32,7 +32,7 @@
         <HintPath>..\..\Libs\Entitas\Entitas.VisualDebugging.Unity.dll</HintPath>
       </Reference>
       <Reference Include="Lockstep.Client.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-        <HintPath>..\..\Libs\LPEngine\Lockstep.Client.Common.dll</HintPath>
+        <HintPath>..\..\Libs\Client\Lockstep.Client.Common.dll</HintPath>
       </Reference>
       <Reference Include="Lockstep.ECS.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
         <HintPath>..\..\Libs\LPEngine\Lockstep.ECS.Common.dll</HintPath>

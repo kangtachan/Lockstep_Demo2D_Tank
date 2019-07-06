@@ -1,0 +1,50 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/jiepengtan/Projects/LPEngine/Lockstep_Demo2D/Src/Game.Editor/Game.Editor.csproj",
+    "projectName": "Lockstep.Game.Editor.Tank",
+    "projectPath": "/Users/jiepengtan/Projects/LPEngine/Lockstep_Demo2D/Src/Game.Editor/Game.Editor.csproj",
+    "outputPath": "/Users/jiepengtan/Projects/LPEngine/Lockstep_Demo2D/Src/Game.Editor/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "/Users/jiepengtan/Projects/LPEngine/Lockstep_Demo2D/Src/Game.Client/Game.Client.csproj": {
+            "projectPath": "/Users/jiepengtan/Projects/LPEngine/Lockstep_Demo2D/Src/Game.Client/Game.Client.csproj"
+          },
+          "/Users/jiepengtan/Projects/LPEngine/Lockstep_Demo2D/Src/Game.Common/Game.Common.csproj": {
+            "projectPath": "/Users/jiepengtan/Projects/LPEngine/Lockstep_Demo2D/Src/Game.Common/Game.Common.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

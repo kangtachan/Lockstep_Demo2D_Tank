@@ -2,7 +2,7 @@
     <PropertyGroup>
         <TargetFramework>netcoreapp2.2</TargetFramework>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-        <AssemblyName>Lockstep.Game.Client.Tank</AssemblyName>
+        <AssemblyName>Lockstep.Game.Server.Tank</AssemblyName>
     </PropertyGroup>
     <ItemDefinitionGroup>
         <Reference>
@@ -32,7 +32,7 @@
         <HintPath>..\..\Libs\LPEngine\Lockstep.NetMsg.Common.dll</HintPath>
       </Reference>
       <Reference Include="Lockstep.NetMsg.Server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-        <HintPath>..\..\Libs\LPEngine\Lockstep.NetMsg.Server.dll</HintPath>
+        <HintPath>..\..\Libs\Server\Lockstep.NetMsg.Server.dll</HintPath>
       </Reference>
       <Reference Include="Lockstep.Networking, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
         <HintPath>..\..\Libs\LPEngine\Lockstep.Networking.dll</HintPath>
@@ -41,7 +41,7 @@
         <HintPath>..\..\Libs\LPEngine\Lockstep.Serialization.dll</HintPath>
       </Reference>
       <Reference Include="Lockstep.Server.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-        <HintPath>..\..\Libs\LPEngine\Lockstep.Server.Common.dll</HintPath>
+        <HintPath>..\..\Libs\Server\Lockstep.Server.Common.dll</HintPath>
       </Reference>
       <Reference Include="Lockstep.Util, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
         <HintPath>..\..\Libs\LPEngine\Lockstep.Util.dll</HintPath>
