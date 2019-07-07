@@ -56,10 +56,10 @@ msbuild /property:Configuration=Debug /p:WarningLevel=0 /verbosity:minimal ./LPG
 printInfo "Prepare Client CopySources "
 cd Src/Unity
 pwd
-#./CopySources.sh
+./CopySources.sh
 
 printInfo "Prepare Client GenConfig "
-#./GenConfig.sh
+./GenConfig.sh
 
 echo "Setup done :)"
 sleep 3
