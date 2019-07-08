@@ -13,7 +13,7 @@ public class MainScript : MonoBehaviour {
     private void Awake(){
         _launcher.GameName = "Tank";
 #if UNITY_EDITOR
-        _launcher.IsDebugMode = IsDebugMode;
+        _launcher.IsDebugMode = true;
 #endif
         _launcher.DoAwake(null);
         rt = new RenderTexture(renderTextureSize.x, renderTextureSize.y, 1, RenderTextureFormat.ARGB32);

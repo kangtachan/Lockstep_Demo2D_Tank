@@ -5,6 +5,7 @@ BombMan/
 # Build and Object Folders  
 bin/  
 Src/  
+obj/  
 # ide
 .idea/
 .vs/

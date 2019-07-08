@@ -23,7 +23,7 @@
   "TankEcs": {
     "DllRelPath": "../../bin/Lockstep.Game.ECS.Tank.dll",
     "NameSpace": "Lockstep.Game",
-    "GeneratePath": "../Common/ECS.Tank/Src/",
+    "GeneratePath": "../../Src/Game.ECS/Src/",
     "GenerateFileName": "ExtensionECS.cs",
     "InterfaceName": "Entitas.IComponent"
   }
