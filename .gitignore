@@ -4,7 +4,9 @@ Games/
 BombMan/
 # Build and Object Folders  
 bin/  
-obj/  
+obj/   
+#数据库文件不提交
+*.db
 # Nuget packages directory  
 packages/  
 # ide
