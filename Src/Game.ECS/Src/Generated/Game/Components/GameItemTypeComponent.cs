@@ -11,7 +11,7 @@ public partial class GameEntity {
     public Lockstep.ECS.Game.ItemTypeComponent itemType { get { return (Lockstep.ECS.Game.ItemTypeComponent)GetComponent(GameComponentsLookup.ItemType); } }
     public bool hasItemType { get { return HasComponent(GameComponentsLookup.ItemType); } }
 
-    public void AddItemType(Lockstep.ECS.Game.EItemType newType, byte newKillerActorId) {
+    public void AddItemType(Lockstep.Game.EItemType newType, byte newKillerActorId) {
         var index = GameComponentsLookup.ItemType;
         var component = (Lockstep.ECS.Game.ItemTypeComponent)CreateComponent(index, typeof(Lockstep.ECS.Game.ItemTypeComponent));
         component.type = newType;
@@ -19,7 +19,7 @@ public partial class GameEntity {
         AddComponent(index, component);
     }
 
-    public void ReplaceItemType(Lockstep.ECS.Game.EItemType newType, byte newKillerActorId) {
+    public void ReplaceItemType(Lockstep.Game.EItemType newType, byte newKillerActorId) {
         var index = GameComponentsLookup.ItemType;
         var component = (Lockstep.ECS.Game.ItemTypeComponent)CreateComponent(index, typeof(Lockstep.ECS.Game.ItemTypeComponent));
         component.type = newType;

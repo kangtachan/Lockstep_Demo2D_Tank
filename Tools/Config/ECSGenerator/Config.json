@@ -9,6 +9,6 @@
   "SrcCopyRelDir" : "../Src/ECS.CodeGenEntitas/Src/Components/",
   "DstCopyRelDir" : "../Src/ECS.ECSOutput/Src/Entitas/Components/",
   "RelCopyDir" : "Src/Entitas/Components/",
-  "FileHeaderStr" :"using Entitas.CodeGeneration.Attributes;  \nusing Lockstep.Math;  \nusing Entitas;",
+  "FileHeaderStr" :"using Entitas.CodeGeneration.Attributes;  \nusing Lockstep.Math;  \nusing Entitas;  \nusing System;",
   "JennyPropertyPath" : "../Jenny.properties"
 }

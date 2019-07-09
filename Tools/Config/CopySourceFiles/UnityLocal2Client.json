@@ -1,0 +1,13 @@
+[
+  {
+    "srcDir": "../../Src/Unity/Assets/__DllSourceFiles/__Local/",
+    "dstDir": "../../Src/",
+    "srcProjectDirs": [
+      "Game.Client",
+      "Game.Common",
+      "Game.ECS",
+      "Game.Editor"
+    ],
+    "sourceFileDir": "/Src"
+  }
+]

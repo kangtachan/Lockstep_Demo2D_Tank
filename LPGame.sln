@@ -8,7 +8,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Common", "Src\Game.Com
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Server", "Src\Game.Server\Game.Server.csproj", "{1DCEB5B2-9BFF-4029-8746-88EB2A2CD3F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Editor", "Src\Game.Editor\Game.Editor.csproj", "{C98753CF-F2B3-4537-A2D0-8E90413C21D6}" 
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Editor", "Src\Game.Editor\Game.Editor.csproj", "{C98753CF-F2B3-4537-A2D0-8E90413C21D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ECSGen", "ECSGen", "{1BFCF578-9E09-4564-BC17-9C96C63259C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECS.ECDefine.Game", "Tools\Src\ECS.ECDefine.Game\ECS.ECDefine.Game.csproj", "{2031DBD2-DDDE-468E-8B2D-6BB862CB4F24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECS.ECSOutput", "Tools\Src\ECS.ECSOutput\ECS.ECSOutput.csproj", "{5A08505A-AF09-44A6-9959-8080E8CB6468}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +42,17 @@ Global
 		{C98753CF-F2B3-4537-A2D0-8E90413C21D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C98753CF-F2B3-4537-A2D0-8E90413C21D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C98753CF-F2B3-4537-A2D0-8E90413C21D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2031DBD2-DDDE-468E-8B2D-6BB862CB4F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2031DBD2-DDDE-468E-8B2D-6BB862CB4F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2031DBD2-DDDE-468E-8B2D-6BB862CB4F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2031DBD2-DDDE-468E-8B2D-6BB862CB4F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A08505A-AF09-44A6-9959-8080E8CB6468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A08505A-AF09-44A6-9959-8080E8CB6468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A08505A-AF09-44A6-9959-8080E8CB6468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A08505A-AF09-44A6-9959-8080E8CB6468}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2031DBD2-DDDE-468E-8B2D-6BB862CB4F24} = {1BFCF578-9E09-4564-BC17-9C96C63259C9}
+		{5A08505A-AF09-44A6-9959-8080E8CB6468} = {1BFCF578-9E09-4564-BC17-9C96C63259C9}
 	EndGlobalSection
 EndGlobal

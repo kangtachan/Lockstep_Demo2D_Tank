@@ -12,6 +12,11 @@ namespace Lockstep.Game {
         Right,
         EnumCount,
     }
+    public enum EItemType {
+        Boom,
+        AddLife,
+        Upgrade,
+    }
     [System.Serializable]
     public enum EAssetID : ushort {
         EnemyTank0 = 10,

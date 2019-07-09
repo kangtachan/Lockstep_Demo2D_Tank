@@ -9,3 +9,14 @@ mono ./Lockstep.Tools.ECSGenerator.exe ../Config/ECSGenerator/Config.json
 
 echo "2.Complile generated code"
 msbuild /property:Configuration=Debug /p:WarningLevel=0 /verbosity:minimal ../Src/ECS.ECSOutput/ECS.ECSOutput.csproj
+
+cd $dir
+rm -rf ./Src/Game.ECS/Src/Components/
+rm -rf ./Src/Game.ECS/Src/Generated/
+cp -rf ./Tools/Src/ECS.ECSOutput/Src/Entitas/Components/ ./Src/Game.ECS/Src/Components/
+cp -rf ./Tools/Src/ECS.ECSOutput/Src/Entitas/Generated/ ./Src/Game.ECS/Src/Generated/
+
+#copy local source to unity 
+cd ./Src/Unity/
+mono ../../Tools/bin/Lockstep.Tools.CopySourceFiles.dll ../../Tools/Config/CopySourceFiles/Client2UnityLocal.json
+

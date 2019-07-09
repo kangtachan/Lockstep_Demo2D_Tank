@@ -141,8 +141,11 @@ namespace Lockstep.Game {
         }
 
         public void DelayCall(LFloat delay, Action callback){
+            //_delayCallService.RegisterFunc((delay * 1000).ToInt(), callback);
             var delayEntity = CreateGameEntity();
-            delayEntity.AddDelayCall(delay, FuncUtil.RegisterFunc(callback));
+            //callback();//排除DelayCall 可能存在的bug
+            //FuncUtil.RegisterFunc(callback);
+            delayEntity.AddDelayCall(delay,callback );
         }
 
         private GameEntity CreateGameEntity(){
