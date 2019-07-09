@@ -5,7 +5,7 @@
   "BuildECdefineShellWorkingDir" : "",
   "BuildShell" : "../BuildCodeGenEntitas.sh",
   "BuildShellWorkingDir" : "",
-  "DesFilePath" : "../Src/ECS.CodeGenEntitas/Src/Components/ComponentDefine.cs",
+  "DesFilePath" : "../Src/ECS.CodeGenEntitas/Src/Components/ComponentDefine.cs" ,
   "SrcCopyRelDir" : "../Src/ECS.CodeGenEntitas/Src/Components/",
   "DstCopyRelDir" : "../Src/ECS.ECSOutput/Src/Entitas/Components/",
   "RelCopyDir" : "Src/Entitas/Components/",
