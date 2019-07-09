@@ -1,0 +1,8 @@
+#!/bin/bash
+clear
+dir="$(cd $(dirname ${BASH_SOURCE[0]}) && pwd)"
+cd $dir
+
+cp -rf ../LockstepPlatform/Libs/LPEngine/ ./Libs/LPEngine/
+cp -rf ../LockstepPlatform/Libs/Client/ ./Libs/Client/
+cp -rf ../LockstepPlatform/Tools/bin/ ./Tools/bin/

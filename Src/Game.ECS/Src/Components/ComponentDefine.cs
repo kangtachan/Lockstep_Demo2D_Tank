@@ -1,7 +1,8 @@
 using Entitas.CodeGeneration.Attributes;  
 using Lockstep.Math;  
 using Entitas;  
-using System;
+using System;  
+using Lockstep.Serialization;
 namespace Lockstep.ECS.Actor{
     [Actor]
     public partial class GameLocalIdComponent :IComponent {
@@ -78,7 +79,7 @@ namespace Lockstep.ECS.Game{
     [Game]
     public partial class DelayCallComponent :IComponent {
         public LFloat delayTimer;
-        public Action callBack;
+        [NoGenCode]public Action callBack;
     }
 
     [Game]
