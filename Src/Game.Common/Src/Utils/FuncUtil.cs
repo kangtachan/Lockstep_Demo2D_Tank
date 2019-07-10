@@ -3,11 +3,6 @@ using System.Collections.Generic;
 using Lockstep.Math;
 
 namespace Lockstep.Game {
-    public interface IDelayCallService : IService {
-        int RegisterFunc(int delayMs, System.Action action);
-        void Call(int id);
-        void RemoveFunc(int leId);
-    }
     public class DelayCallService : BaseService, IDelayCallService {
         private int _startIdx;
         private readonly List<Action> actions = new List<Action>();
