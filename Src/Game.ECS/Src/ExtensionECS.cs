@@ -12,7 +12,7 @@
                                                                                                               
 using System;                                                                                                 
 using System.Collections.Generic;                                                                             
-using Lockstep.Serialization;                                                                                    
+using Lockstep.Serialization;                                                                                 
 namespace Lockstep.ECS.Input{public partial class ActorIdComponent : BaseComponent{}};
 namespace Lockstep.ECS.Game{public partial class ActorIdComponent : BaseComponent{}};
 namespace Lockstep.ECS.Game{public partial class AIComponent : BaseComponent{}};
