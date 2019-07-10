@@ -50,7 +50,10 @@ namespace Lockstep.Game {
         public BulletComponent bullet = new BulletComponent();
         public TagBulletComponent tagBullet = new TagBulletComponent();
     }
-
+    
+    #endregion
+    #region Serialize
+#if false
     [System.Serializable]
     public partial class ConfigBullet {
         public override void Serialize(Serializer writer){
@@ -245,6 +248,6 @@ namespace Lockstep.Game {
             pos = reader.ReadRef(ref this.pos);
         }
     }
-
+#endif
     #endregion
 }
